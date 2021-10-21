@@ -1,0 +1,3 @@
+-c requirements.in
+flake8
+pyflakes

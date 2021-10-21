@@ -5,7 +5,7 @@ ENV PYTHONUNBUFFERED 1
 
 WORKDIR /code
 
-COPY requirements.lock /code/
-RUN pip install requirements.txt
+COPY requirements.txt /code/
+RUN pip install -r requirements.txt
 
 COPY . /code/
